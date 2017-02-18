@@ -31,5 +31,7 @@ namespace ASP_MVC_2.Models.DB
         public virtual DbSet<SYSUserRole> SYSUserRoles { get; set; }
 
         public System.Data.Entity.DbSet<ASP_MVC_2.Models.ViewModel.UserLoginView> UserLoginViews { get; set; }
+
+        public System.Data.Entity.DbSet<ASP_MVC_2.Models.ViewModel.UserProfileView> UserProfileViews { get; set; }
     }
 }
